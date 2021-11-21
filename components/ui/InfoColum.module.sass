@@ -1,0 +1,30 @@
+.infoColum
+    padding: 10px
+    // max-width: 800px
+    // height: 500px
+    background-color: #fff
+    // border: $colorGrey 3px solid
+    border-radius: 10px
+    display: flex
+    justify-content: space-evenly
+    // flex-wrap: wrap
+    .block
+        margin: 5px
+        .title
+            font-size: 1.5em
+            color: black
+            margin-bottom: 20px
+            text-align: center
+        .content
+            // width: 160px
+            text-overflow: clip
+            // font-size: 0.8em
+            text-align: center
+
+@media ( max-width: 750px)
+    .infoColum
+        flex-direction: column
+        .block
+            .title
+                margin-bottom: 0px
+            
